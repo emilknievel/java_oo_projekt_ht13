@@ -4,9 +4,9 @@ import java.awt.geom.Point2D;
 
 /**
  * Created with IntelliJ IDEA.
- * User: Emil
- * Date: 2013-09-05
- * Time: 14:00
+ * User: emil
+ * Date: 9/10/13
+ * Time: 9:49 PM
  * To change this template use File | Settings | File Templates.
  */
 public class Brick extends Point2D.Double {
