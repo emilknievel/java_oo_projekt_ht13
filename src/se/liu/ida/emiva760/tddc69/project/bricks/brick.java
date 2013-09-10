@@ -9,8 +9,8 @@ import java.awt.geom.Point2D;
  * Time: 14:00
  * To change this template use File | Settings | File Templates.
  */
-public class brick extends Point2D.Double {
-    public brick(double x, double y) {
+public class Brick extends Point2D.Double {
+    public Brick(double x, double y) {
         super(x, y);
     }
 }

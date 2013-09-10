@@ -7,5 +7,5 @@ package se.liu.ida.emiva760.tddc69.project.gameboard;
  * Time: 14:05
  * To change this template use File | Settings | File Templates.
  */
-public class main {
+public class Test {
 }
