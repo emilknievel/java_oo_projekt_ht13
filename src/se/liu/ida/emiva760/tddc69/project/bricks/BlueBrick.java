@@ -1,11 +1,9 @@
 package se.liu.ida.emiva760.tddc69.project.bricks;
 
-/**
- * Created with IntelliJ IDEA.
- * User: Emil
- * Date: 2013-09-10
- * Time: 12:37
- * To change this template use File | Settings | File Templates.
- */
-public class BlueBrick {
+public class BlueBrick extends Brick {
+
+    public BlueBrick(double x, double y) {
+        super(x, y);
+	    spriteFileName = "sprites/bluebrick.png";
+    }
 }

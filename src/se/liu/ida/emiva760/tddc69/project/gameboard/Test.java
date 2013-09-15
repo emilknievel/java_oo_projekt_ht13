@@ -1,14 +1,10 @@
 package se.liu.ida.emiva760.tddc69.project.gameboard;
 
+import se.liu.ida.emiva760.tddc69.project.bricks.BlueBrick;
+import se.liu.ida.emiva760.tddc69.project.bricks.Brick;
+
 import javax.swing.*;
 
-/**
- * Created with IntelliJ IDEA.
- * User: Emil
- * Date: 2013-09-05
- * Time: 14:05
- * To change this template use File | Settings | File Templates.
- */
 public class Test extends JFrame {
     public Test()
     {
@@ -18,9 +14,11 @@ public class Test extends JFrame {
         setIgnoreRepaint(true);
         setResizable(false);
         setVisible(true);
+
     }
 
     public static void main(String[] args) {
         new Test();
+	BlueBrick brick = new BlueBrick(4,5);
     }
 }
