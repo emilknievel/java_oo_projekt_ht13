@@ -1,11 +1,11 @@
-package se.liu.ida.emiva760.tddc69.project.gameboard;
+package se.liu.ida.emiva760.tddc69.project.brejkaot;
 
 import javax.swing.*;
 
-public class Test extends JFrame {
-    public Test()
+public class Brejkaot extends JFrame {
+    public Brejkaot()
     {
-	add(new GameBoard());
+	add(new BrejkaotManager());
         setTitle("Breakout");
         setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         setSize(640, 480);
@@ -15,6 +15,6 @@ public class Test extends JFrame {
     }
 
     public static void main(String[] args) {
-        new Test();
+        new Brejkaot();
     }
 }

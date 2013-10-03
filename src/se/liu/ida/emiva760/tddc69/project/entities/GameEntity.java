@@ -5,7 +5,7 @@ import java.awt.*;
 import java.awt.geom.Point2D;
 import java.net.URL;
 
-public class GameEntity extends Point2D.Double {
+public abstract class GameEntity extends Point2D.Double {
     /**
      * The path to the sprite
      */
@@ -26,7 +26,7 @@ public class GameEntity extends Point2D.Double {
 	/**
 	 * Loads the sprite from the path variable
 	 */
-	URL spriteUrl = getClass().getResource(spriteFileName);
+	URL spriteUrl = getClass().getResource("resources/" + spriteFileName);
 
 	ImageIcon icon = null;
 	if (spriteUrl != null) {
