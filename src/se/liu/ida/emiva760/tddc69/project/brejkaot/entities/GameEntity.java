@@ -1,4 +1,4 @@
-package se.liu.ida.emiva760.tddc69.project.entities;
+package se.liu.ida.emiva760.tddc69.project.brejkaot.entities;
 
 import javax.swing.*;
 import java.awt.*;
@@ -6,9 +6,7 @@ import java.awt.geom.Point2D;
 import java.net.URL;
 
 public abstract class GameEntity extends Point2D.Double {
-    /**
-     * The path to the sprite
-     */
+    // The path to the sprite
     protected String spriteFileName;
 
     private int width;
@@ -23,9 +21,7 @@ public abstract class GameEntity extends Point2D.Double {
      * Loads the sprite pointed to by spriteFileName
      */
     public void loadSprite() {
-	/**
-	 * Loads the sprite from the path variable
-	 */
+	// Loads sprite URL from the path variable
 	URL spriteUrl = getClass().getResource("resources/" + spriteFileName);
 
 	ImageIcon icon = null;
@@ -34,9 +30,8 @@ public abstract class GameEntity extends Point2D.Double {
 	} else {
 	    System.err.println("Couldn't find file: " + spriteFileName);
 	}
-	/*
-	 A BufferedImage object
-	*/
+
+	// A BufferedImage object
 	sprite = icon.getImage();
 
 	width = sprite.getWidth(null);

@@ -1,7 +1,7 @@
 package se.liu.ida.emiva760.tddc69.project.brejkaot;
 
-import se.liu.ida.emiva760.tddc69.project.entities.bricks.BlueBrick;
-import se.liu.ida.emiva760.tddc69.project.entities.GameEntity;
+import se.liu.ida.emiva760.tddc69.project.brejkaot.entities.bricks.BlueBrick;
+import se.liu.ida.emiva760.tddc69.project.brejkaot.entities.GameEntity;
 
 import javax.swing.*;
 
